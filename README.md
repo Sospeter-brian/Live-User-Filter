@@ -1,2 +1,2 @@
 # Live-User-Filter
-*By Sospeter Brian Murangiri.
+*By Sospeter Brian Murangiri.*
