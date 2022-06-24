@@ -4,6 +4,9 @@ const filter = document.getElementById('filter')
 //initialize an  array called listItems
 const listItems = []
 getData()
+//adding an eventListener
+filter.addEventListener('input',(e) => filterData(e.target.value))
+
 //fetching our data
 async function getData(){
     const res = await fetch('https://randomuser.me/api?results=50')
@@ -35,5 +38,9 @@ async function getData(){
      });
 
 
+}
+function filterData(searchTerm){
+    //testing in the console
+    console.log(searchTerm)
 }
 
