@@ -15,5 +15,6 @@ Acesss to internet so as to search and load the display output.
 
 #### Resources
 ***Randomuser.me-gave acesss to the API data***
+
 ***google-conducted research on the project and to to implement it***
 
